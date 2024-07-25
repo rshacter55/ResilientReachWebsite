@@ -1,0 +1,19 @@
+
+.hero-about {
+    position: relative;
+    height: 450px;  /* overrights styles */
+    width:100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 
+
+}
+
+.about-summary {
+    max-width: 1200px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 2rem;
+}
