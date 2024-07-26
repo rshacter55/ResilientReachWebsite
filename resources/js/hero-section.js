@@ -88,7 +88,6 @@ class HeroSection extends HTMLElement {
           to { opacity: 1; }
         }
         .contact-button {
-          /* background-color: #007bff;  */
           background-color: #0e8683;
           color: white;
           padding: 10px 20px;
@@ -99,7 +98,6 @@ class HeroSection extends HTMLElement {
           transition: background-color 0.3s ease;
         }
         .contact-button:hover {
-          /* background-color: #0056b3; */
           background-color: #0fbba7;
         }
 
