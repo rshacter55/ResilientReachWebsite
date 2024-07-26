@@ -137,7 +137,7 @@ class HeroSection extends HTMLElement {
           box-sizing: border-box;
         }
         .popover button[type="submit"] {
-          background-color: #28a745;
+          background-color: #0e8683;;
           color: white;
           padding: 10px 15px;
           border: none;
@@ -145,7 +145,7 @@ class HeroSection extends HTMLElement {
           cursor: pointer;
         }
         .popover button[type="submit"]:hover {
-          background-color: #218838;
+          background-color: #0fbba7;
         }
         .close-button {
           position: absolute;
@@ -158,8 +158,8 @@ class HeroSection extends HTMLElement {
           z-index: 101;
         }
         .error {
-          color: red;
-          font-size: 0.9em;
+          color: #e80075;
+          font-size: 0.8rem;
           margin-top: -10px;
           margin-bottom: 10px;
           display: none;
