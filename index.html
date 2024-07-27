@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resilient Reach - Medical Application</title>
  
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/team.css">
+
     <script src="/resources/js/components.js" defer></script>
     <script src="/resources/js/hero-section.js"></script>
+    <script src="/resources/js/team.js" defer></script>
     <script src="/resources/js/scripts.js" defer></script>
-    <link rel="stylesheet" href="resources/css/styles.css">s
+
 </head>
 <body>
     <header-component></header-component>
 
     <main>
+        <div id="home"></div>
         <hero-section 
             background-image="/resources/images/hero-image-1.png"
             height="500px"
@@ -24,11 +29,8 @@
                 </div>
             </div>
        </hero-section>
-       
-
         <section class="key-benefits">
-            <h1>Welcome to Resilient Reach</h1>
-            <p class="wellcome">Our medical application is designed to support you throughout your health journey.</p>
+            <p class="wellcome">Welcome! Our medical application is designed to support you throughout your health journey.</p>
 
             <h2>Key Benefits</h2>
             <div class="card-container">
@@ -125,6 +127,75 @@
                 
             </div>
         </section>
+     <!-- About section begins here -->
+     <div id="about">
+        <hero-section 
+            background-image="/resources/images/about.jpg"
+            height="400px"
+            title="Resilient Reach">
+            <div slot="text-content">
+                <p>About Resilient Reach</p>
+            </div>
+         </hero-section>
+      <section class="content about-summary">
+         <h1>About Us</h1>
+             <p>
+                Resilient Reach is a startup focused on revolutionizing the healthcare experience through its innovative AI-driven solution, MediBot. The company addresses the issues patients face while navigating complex healthcare systems. These challenges include the difficulty of involving loved ones, navigating health portals, comprehending clinical advice, and coordinating care. Resilient Reach aims to reduce the time, effort, and cognitive burden associated with these healthcare tasks. MediBot allows users to easily share health data, it makes healthcare information easily accessible, explain medical advice clearly, and simplify healthcare navigation. Its user-centric approach ensures that patients can focus more on their well-being rather than drown in administrative tasks of healthcare.
+            </p>
+            <p>
+              MediBot integrates into a patient's digital life by synchronizing with calendars, notes, and apps to provide a one-stop healthcare management solution. The platform leverages advanced AI-driven UX to deliver intuitive interactions, enabling features such as voice commands and text-to-voice conversions to minimize cognitive load. Unlike traditional medical software, MediBot stands out due to its affordability, ease of use, and on-demand accessibility. It offers features such as answering medical questions with patience, checklists, and follow-up prompts to ensure thorough and proactive healthcare engagement. By simplifying healthcare processes, Resilient Reach's MediBot transforms patient interaction with medical systems, making it easier and more efficient for users to manage their health.</p>
+            </p>
+       </section>
+     </div>  
+    <!-- Our Team section -->
+    <div id="team">
+        <hero-section
+            background-image="/resources/images/team.jpg"
+            height="450px"
+            title="Resilient Reach Team">
+
+            <div slot="text-content"  class="hero-content" >
+                <div class="hero-details">
+                    <p>40 Years Software</p>
+                    <p>15 Years Marketing</p>
+                    <p>8 years product development</p>
+                    <p>FDA Class II Clearances</p>
+                </div>
+            </div>
+        </hero-section>
+        <section class="our-team padding-lg">
+            <div class="container">
+                <div class="heading heading-icon">
+                    <h2>The Team</h2>
+                </div>
+                <section class="team-layout">
+                    <div class="team-grid">
+                        <!-- All team cards go here -->
+                        <team-card name="Nithin Dhananjayan" position="CEO" img-src="/resources/images/team/Nithin.jpg" facebook="#" twitter="#" linkedin="#"></team-card>
+                        <team-card name="Robert Ehteshamzadeh" position="CTO" img-src="/resources/images/team/Robert.jpg" facebook="#" twitter="#" linkedin="#"></team-card>
+                        <team-card name="Terence Custodia" position="CMO" img-src="/resources/images/team/Terence.jpg" facebook="#" twitter="#" linkedin="#"></team-card>
+                    </div>
+                    <div class="fteam-grid">
+                        <team-card name="Ruth Shacterman" position="Product Lead" img-src="/resources/images/team/Ruth.png" facebook="#" twitter="#" linkedin="#"></team-card>
+                        <team-card name="Joe Moriguchi" position="Design" img-src="/resources/images/team/Joe.jpg" facebook="#" twitter="#" linkedin="#"></team-card>
+                    </div>
+                </section>  
+             </div>
+        </section>
+    </div>
+  <!-- Contact Use section (needed?)-->
+  <div id="contact">
+     <hero-section
+            background-image="/resources/images/contact-us-concept.jpg"
+            height="800px"
+            title=""
+            botton-text=""
+            >
+            <div slot="text-content"  class="hero-content" >
+                <p>We'd love to hear from you!</p>
+            </div>
+    </hero-section>
+    </div>
     </main>
 
     <footer-component></footer-component>

@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('header-component');
     if (header) {
-        header.highlightActivePage();
+       header.highlightActivePage();
     }
 });
 
