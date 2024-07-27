@@ -51,16 +51,28 @@ class TeamCard extends HTMLElement {
                     text-decoration: none;
                 }
                 .social-links a:hover {
-                    color: #025a8e;
+                   color: #025a8e;
+                }
+                .social-icon-size {
+                    width: 24px;
+                    height: 24px;
                 }
             </style>
             <img src="${this.getAttribute('img-src')}" alt="${this.getAttribute('name')}" />
             <h3>${this.getAttribute('name')}</h3>
             <p>${this.getAttribute('position')}</p>
+
             <div class="social-links">
-                <a href="${this.getAttribute('facebook')}" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="${this.getAttribute('twitter')}" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="${this.getAttribute('linkedin')}" target="_blank"><i class="fa fa-linkedin"></i></a>
+               <!-- <a href="${this.getAttribute('facebook')}" target="_blank">
+                    <img src="/resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
+                </a>
+                <a href="${this.getAttribute('twitter')}" target="_blank">
+                    <img src="/resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
+                </a>
+                -->
+                <a href="${this.getAttribute('linkedin')}" target="_blank">
+                    <img src="/resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
+                </a>
             </div>
         `;
 
