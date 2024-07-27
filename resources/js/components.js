@@ -36,7 +36,7 @@ class HeaderComponent extends HTMLElement {
                     display: flex;
                     align-items: center;
                     font-family: "Baskerville", "Times New Roman";
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                 }
               
                 .logo-container img {

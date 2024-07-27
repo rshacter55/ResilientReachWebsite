@@ -64,7 +64,8 @@ class HeroSection extends HTMLElement {
         }
         h1 {
           margin: 0;
-          font-size: 2.5em;
+          font-size: 2em;
+          font-weight: 400;s
           z-index: 2;
         }
         .text-content {
