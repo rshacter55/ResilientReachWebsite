@@ -118,7 +118,7 @@ class HeaderComponent extends HTMLElement {
             <header>
             <nav>
                 <div class="logo-container">
-                    <img src="/resources/images/logo.png" alt="Logo">
+                    <img src="resources/images/logo.png" alt="Logo">
                     <span class="logo-text">Resilient Reach</span>
                 </div>
                 <button class="hamburger" aria-label="Toggle menu">
