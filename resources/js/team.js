@@ -64,14 +64,14 @@ class TeamCard extends HTMLElement {
 
             <div class="social-links">
                <!-- <a href="${this.getAttribute('facebook')}" target="_blank">
-                    <img src="/resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
+                    <img src="resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
                 </a>
                 <a href="${this.getAttribute('twitter')}" target="_blank">
-                    <img src="/resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
+                    <img src="resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
                 </a>
                 -->
                 <a href="${this.getAttribute('linkedin')}" target="_blank">
-                    <img src="/resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
+                    <img src="resources/images/social/linkedin-svgrepo-com.svg" alt="LinkedIn" class="social-icon-size" >
                 </a>
             </div>
         `;
