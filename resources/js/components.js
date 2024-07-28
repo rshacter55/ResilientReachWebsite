@@ -1,5 +1,4 @@
 
-
 class HeaderComponent extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -76,7 +75,6 @@ class HeaderComponent extends HTMLElement {
                 .nav-links a:active {
                         color: var(--color-accent-3);
                 }        
-            
                     
                 @media (max-width: 768px) {
                     .hamburger {
