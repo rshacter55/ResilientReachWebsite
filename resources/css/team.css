@@ -42,9 +42,7 @@
     .team-grid {
         grid-template-columns: repeat(1, 1fr); 
     }
-    .fteam-grid {
-        max-width: 440px; /* Adjust as needed */
-    }
+
 }
 
 @media (max-width: 768px) {
@@ -53,7 +51,7 @@
     }
     .fteam-grid {
         grid-template-columns: 1fr; 
-        max-width: 400px; /* Adjust as needed */
+   /*    max-width: 400px;  Adjust as needed */
     }
 }
 

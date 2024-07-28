@@ -44,6 +44,7 @@ class HeroSection extends HTMLElement {
           align-items: center;
           justify-content: center;
           position: relative;
+          padding-top: 60px;
         }
         .hero::before {
           content: '';
