@@ -102,7 +102,8 @@ class HeroSection extends HTMLElement {
         .contact-button:hover {
           background-color: #0e8683;
         }
-
+        
+       
         .popover {
           display: none;
           position: absolute;
@@ -174,6 +175,21 @@ class HeroSection extends HTMLElement {
             width: 95%;
           }
         }
+      .contact-phone {
+        display: block;
+        background: none;
+        margin-top: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.4rem;
+       /* font-weight: bold; */
+      }
+      .contact-phone:hover {
+        background: none;
+        text-decoration: underline; 
+        /* color: #03393e; */
+        font-weight: 500;
+       }
       </style>
       <section class="hero">
         <div class="hero-content">
@@ -182,6 +198,8 @@ class HeroSection extends HTMLElement {
             <slot name="text-content"></slot>
           </div>
           <button class="contact-button">${buttonText}</button>
+          <a href="tel:+19162340846" class="contact-phone">(916) 234-0846</a>
+      
           <div class="popover">
             <button class="close-button">✖</button>
             <form novalidate>
@@ -200,7 +218,8 @@ class HeroSection extends HTMLElement {
               <button type="submit">Send</button>
             </form>
           </div>
-        </div>
+          
+          </div>
       </section>
     `;
   }
